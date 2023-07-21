@@ -1,0 +1,171 @@
+@import url("https://unpkg.com/bootstrap@5.0.1/dist/css/bootstrap.min.css");
+@import url("https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css");
+
+body{
+    position: relative;
+}
+.succ{
+    position: absolute;
+    top:0;
+    text-align: center;
+    background-color:#cdbef5;
+    padding: 20px;
+    border-radius: 5px;
+    color:black;
+    }
+.btn{
+color: white;
+padding: 5px;
+width: 80px;
+font-size: 16px;
+font-weight: 700;
+border-radius: 7px;
+cursor: pointer;
+border: 1px solid white;
+margin: 20px;
+}
+.btns{
+display: flex;
+}
+.value{
+    padding: 20px;
+}
+
+
+/* Uncontrolled form */
+
+.outercard{
+background-color:#8054f7;
+height: 600px;
+width: 75%;
+margin-left: 170px;
+
+}
+.innerCard{
+display: flex;
+height: 550px;
+margin: 50px 100px;
+}
+.form1{
+    background-image: url(../image/ui\ themes.jpg);
+    color: aliceblue;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 16px;
+    margin-top: 50px;
+   }
+  
+h3{
+    color:white;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 30px;
+ }
+.para1{
+    color:white;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.para2{
+  
+   color: aliceblue;
+   margin-left: 30px;
+   font-size: 12px;
+
+}
+.para3{
+    margin-left: 30px;
+    font-size: 12px;
+    margin-top: 200px;
+}
+
+.form2{
+    background-color: white;
+    width: 50%;
+    font-size: 16px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 50px;
+}
+h4, p, .lab,input{
+    margin-left: 60px;
+  }
+h4{
+    margin-top: 0;
+    color: rgb(12, 189, 243);
+}
+.checkk{
+     display: inline-block !important;
+}
+.form-control{
+    width: 285px !important;
+    margin-bottom: 10px;
+}
+.btn1{
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width:285px ;
+    background-color:  rgb(12, 189, 243);
+    color: aliceblue;
+    padding: 5px;
+    border: none;
+    font-weight: 500;
+}
+.par{
+    margin-top: 20px;
+    color: gray;
+    font-size: 14px;
+    margin-left: 60px;
+}
+
+#check{
+    margin-right: 10px;
+}
+span{
+    color: rgb(12, 189, 243);
+    font-size: 14px;
+}
+.logpara{
+    color: gray;
+}
+.foot{
+   display: inline-flex;
+}
+.pwd{
+    color: gray;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+    .line{
+        display: flex;
+    }
+    .hr1{
+        margin-left: 60px;
+        width: 120px;
+    }
+    .hr2{
+        margin-left: 15px;
+        width: 120px;
+    }
+    .or{
+       margin-left: 15px;
+       color: gray;
+    }
+    .goopara{
+        font-size: 14px;
+        margin-left: 130px;
+       
+    }
+    #goo{
+        color:  rgb(12, 189, 243);
+        padding: 10px;
+    }
+    .icon{
+        font-size: 40px;
+        padding-top: 5px;
+        margin-left: 60px;
+    }

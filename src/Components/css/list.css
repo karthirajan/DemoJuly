@@ -1,0 +1,62 @@
+@import url("https://unpkg.com/bootstrap@5.0.1/dist/css/bootstrap.min.css");
+@import url("https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css");
+
+.outercard{
+    background-color: hsl(200, 8%, 93%);
+    width: 70%;
+    height: 600px;
+    }
+    .innercard{
+    display: flex;
+    height:550px;
+    }
+    .formOne{
+        background-image: url(../image/ui\ themes.jpg);
+        background-position: center;
+        width: 50%;
+        margin-left:  100px;
+        margin-top: 50px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius:5px ;
+        box-shadow: 2px 2px 40px 1px #2f2f4d;
+    }
+    .formTwo{
+        background-color: #786af8;
+        width: 50%;
+        margin-right:  100px;
+        margin-top: 50px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius:5px ;
+        font-size: 14px;
+        box-shadow: 3px 3px 40px 2px #998efa;
+    }
+    .heading{
+        margin-left: 70px;
+        margin-top: 60px;
+        font-weight: 700;
+        color: white;
+    }
+    .fields{
+        margin-top: 30px;
+    }
+
+    .formfield{
+        margin-left: 70px ;
+        margin-bottom: 30px ;  
+        padding: 8px;
+        width: 230px ; 
+        border: none;
+        border-radius: 30px;
+       font-size: 12px;
+       }
+   
+
+    .btn1{
+        border-radius: 30px;
+       width: 120px;
+       margin-left: 130px;
+       text-align: center;
+      background-color: #f5e508e1;
+      border: 2px  #f5e508e1;
+      padding-bottom: 5px;
+    }
