@@ -1,0 +1,41 @@
+@import url("https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css");
+.container{
+    overflow-y:scroll;
+}
+.box{
+  
+    animation:box 5s ease-in-out;
+   
+   
+}
+@keyframes box{
+/* from{
+    margin-left:0;
+    background-color:orange;
+   opacity: 1;
+}
+to{
+    margin-left:900px;
+    background-color:rgb(50, 124, 50);
+    opacity:0;
+    width:50px;
+    height:50px;
+
+} */
+0%{
+    margin-left:0;
+    background-color: red;
+}
+50%{
+    /* margin-left:50%; */
+    background-color:greenyellow ;
+}
+100%{
+    margin-left: 100%;
+    background-color: orange;
+}
+
+}
+.box1{
+    visibility:hidden;
+}

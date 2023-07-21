@@ -1,0 +1,68 @@
+@import url("https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css");
+@import url("https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css");
+
+container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #DCD4FD; */
+       
+        
+    /* background-image: url("https://plus.unsplash.com/premium_photo-1677094766582-46bcfaf44f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"); */
+  }
+  
+  .card{  
+    margin: top 100px !important;
+    margin-bottom: 100px!important; 
+    height:900px;
+    width:600px;
+    box-shadow:7px 7px 7px 7px rgb(86, 62, 86);
+  }
+  .title{
+    margin-left:20px;
+  }
+  .card-img{
+    width:300px;
+    height:60vh;
+    
+    
+  }
+  form{
+    background-color:#5F30D8;
+    width:350px;
+    height:60vh;
+    padding:0 20px;
+    
+  }
+  .line{
+   height:5px;
+    width:30px;
+    background-color: black;
+    margin: 0 10px;
+    margin-top:10px;
+  }
+  .pass-hint{
+    font-size:12px;
+    margin-left:10px;
+    
+  }
+  .inputfield{
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 1px 10px;
+    border-radius: 20px;
+  
+  }
+  input{
+    border:none;
+    /* border-bottom:1px solid lightgrey; */
+    border-radius: 20px;
+    width:200px;
+    height:30px;
+    text-align:left;
+    font-size:10px !important;
+    outline:none;
+    padding:0 20px;
+  }
