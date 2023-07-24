@@ -1,0 +1,408 @@
+@import url("https://unpkg.com/bootstrap@5.0.1/dist/css/bootstrap.min.css");
+@import url("https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css");
+
+
+/* Header.jsx */
+.headerNav{
+    height: 70px;
+    background-color: crimson;
+    color: white;
+    position: relative;
+    display: flex;
+}
+.headNavHeader{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.headerHome{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.headerList{
+    margin-left: 90px;
+    margin-bottom: 30px ;
+    position: absolute;
+    top: 20px;
+    
+}
+.headerLogout{
+    position: absolute;
+    top:20px;
+    right: 60px;
+}
+
+
+/* Footer.jsx */
+.footer{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.outerCard{
+background-color: hsl(240, 4%, 78%);
+height: 600px;
+margin:10px 220px;
+}
+.innerCard{
+display: flex;
+height:550px;
+}
+.form1{
+     background-image:url(../image/ui\ themes.jpg); 
+     background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    margin-left:  100px;
+    margin-top: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    box-shadow: 3px 3px 40px 2px #998efa;
+}
+.form2{
+    background-color: #786af8;
+    width: 50%;
+    margin-right:  100px;
+    margin-top: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    font-size: 14px;
+    box-shadow: 3px 3px 40px 2px #998efa;
+}
+.head{
+    margin-left: 70px;
+    margin-top: 60px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 60px;
+}
+  input{
+    border: none;
+   font-size: 12px;
+   }
+   .inp1, .inp2, .inp3{
+    display: flex;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 230px;
+    border: none;
+    border-radius: 30px;
+}
+ i{
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    color: rgb(175, 173, 173);
+}
+
+hr{
+    width: 30px;
+    padding: 2px;
+    border-radius: 20px;
+    margin: 45px 5px;
+}
+.sten{
+    display: flex;
+}
+.btn2{
+    border-radius: 30px;
+   width: 120px;
+   margin-left: 70px;
+   text-align: center;
+  background-color: #f5e508e1;
+  border: 2px  #f5e508e1;
+  padding-bottom: 5px;
+}
+.btn3{
+    background-color:  #786af8;
+    color: white;
+    border-radius: 30px;
+    width: 85px;
+    margin-left: 30px;
+    text-align: center;
+    border: 1px solid white;
+  padding-bottom: 5px;
+}
+.pass{
+    font-size: 12px;
+    color: #aca6a6;
+    margin-top: 25px;
+    padding: 10px;
+    margin-left: 65px;
+}
+.status{
+    position: absolute;
+    top:0;
+    text-align: center;
+    background-color:#799ff1;
+    padding: 20px;
+    border-radius: 5px;
+    color:black;
+}
+
+
+/* Error Page: */
+.errorOuterCard{
+    background-color: rgb(196, 211, 224);
+    height: 570px;
+    margin: 20px 220px;
+    position: relative;
+}
+.errorCard{
+    position: absolute;
+background-color:white;
+top: 35px;
+bottom:35px;
+left: 120px;
+right: 120px;
+border-radius: 30px;
+}
+.errorHead{
+    display: flex;
+    justify-content: space-between;
+}
+.errorLogo{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 60px;
+    }
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+li{
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.errorContent{
+    margin-left: 35px;
+    margin-top: 70px;
+}
+.errorbtn{
+    background-color: green;
+    border-radius: 30px;
+    padding: 3px 15px;
+    border: none;
+    color: white;
+}
+.errorCode{
+     font-size: 64px;
+}
+.active{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    width: 55px;
+    text-align: center;
+}
+.erorPage{
+    display: flex;
+}
+.errorImage{
+  width: 240px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 150px;
+  height: 300px;
+}
+
+
+/* snapDeal Home Page */
+.homeNav{
+    height: 70px;
+    background-color: crimson;
+    color: white;
+    position: relative;
+    display: flex;
+}
+.snapLogo{
+    width: 170px;
+    margin: 10px 70px;
+    background-color: white;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 900;
+    z-index: 1;
+}
+.searchBox{
+    width: 500px;
+    color: #aca6a6;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px; 
+    
+}
+.searchLetter{
+    background-color: black;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    padding: 7px;
+    font-size: 14px;
+    width: 100px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px; 
+    
+}
+.cart{
+    position: absolute;
+    right: 280px;
+    top: 20px;
+}
+.sign{
+    position: absolute;
+    right: 120px;
+    top: 20px;
+}
+i{
+    color: white;
+    
+}
+.snapSidebar{
+    width: 280px;
+    background-color: rgb(222, 238, 233);
+    margin-left: 60px;
+    margin-top: 15px;
+    border: 1px solid rgb(206, 206, 238);
+   }
+.moreList{
+    display: inline;
+    font-size: 14px;
+    color: gray;
+    margin-left: 10px;
+}
+.moreList li{
+    line-height: 0cm;
+    }
+.snapSidehead{
+    font-size: 14px;
+    color: gray;
+    margin-left: 30px;
+    margin-bottom: 0;
+    line-height: 3;
+}
+.snaphead{
+    font-size: 12px;
+    color: gray;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.overallContent{
+    display: flex;
+}
+.snapSlide{
+    width: 980px;
+    height: 320px;
+    background-image: url(../image/e\ com\ web.jpg); 
+    margin: 15px;
+
+}
+.rightSidebar{
+    background-color: #799ff1;
+    height: 320px;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+.products{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.proHead{
+    margin-left: 15px;
+    margin-top:30px ;
+}
+.snapPro1{
+     background-color: #c5c5c7;
+     padding: 15px;
+     width: 240px;
+     text-align: center;
+    }
+    
+.snapPro2{
+    background-color:#c5c5c7;
+    padding: 15px;
+    margin-left:8px ;
+    width: 240px;
+    text-align: center;
+}
+.snapPro3{
+    background-color:#c5c5c7;
+    padding: 15px;
+    margin-left:8px ;
+    width: 240px;
+    text-align: center;
+}
+.snapPro4{
+    background-color: #c5c5c7;
+    padding: 15px;
+    margin-left:8px ;
+    width: 240px;
+    text-align: center;
+}
+.star{
+color: rgb(238, 203, 5);
+font-size: 30px;
+}
+.products p{
+    color: black;
+}
+.products img{
+   width: 100px;
+   height: 100px;
+}
+.snapArticle{
+    margin-left: 60px;
+}
+
+
+/* Api get Data */
+
+
+.apiCard{
+    background-color:white;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: -3px 3px 7px 6px rgba(102, 101, 101, 0.6);
+    position: relative;
+    }
+.shoeImage{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+.apiHeader{
+    text-align: center;
+    margin: 20px;
+}
+    .apiCard button{
+        position: absolute;
+        margin-left: 60px;
+        width: 80px;
+        bottom: 20px;
+        box-shadow: inset 0px 0px 2px 1px #2e2d2d;
+    }
+ .viewApi{
+    text-align: center;
+     margin-top: 20px;
+       }
+       .viewApi button{
+          margin-top: 20px;
+       }
+   .apiBody{
+    color: black;
+       }

@@ -1,0 +1,189 @@
+body{
+    background-color:white;
+}
+h4{
+    text-align: center;
+}
+#nav{
+display: flex;
+height: 60px;
+}
+#nav1{
+    width: 250px !important; 
+    border: 1px solid#e2e8f0;
+    background-color: #fff;
+    text-align: center;
+     padding-top: 7px;
+   }
+#nav #btn{
+    font-size: 18px;
+    border: 3px solid rgb(127, 176, 248);
+}
+
+
+#nav2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 78%;
+    border: 1px solid#e2e8f0;
+    background-color: #fff;
+}
+#sel{
+    width: 100px;
+    margin-left: 10px;
+    border: 1px solid#e2e8f0;
+    background-color: #fff;
+}
+#search{
+    border: 1px solid#e2e8f0;
+    background-color: #fff;
+    margin-right: 20px;
+}
+.side-main{
+ display: flex;
+ width: 100%;
+ 
+ }
+#main{
+    width: 600px;
+    border: 1px solid#e2e8f0;
+    background-color: #e2e8f0;
+}
+#sidebar{
+    width: 250px !important; 
+    height: 675px;
+    border: 1px solid rgb(231, 227, 227);
+    padding: 20px;
+    line-height: 2.5;
+    border: 1px solid#e2e8f0;
+    background-color: #fff;
+}
+#sidebar .side1{
+    background-color: #e2e8f0; 
+    padding-left: 5px;
+    border-radius: 4px;
+}
+.sidebar2{
+    height: 675px;
+    width: 20px;
+    scroll-behavior: auto;
+    border: 1px solid#e2e8f0;
+    background-color: #fff;
+    position: relative;
+}
+#arrow{
+    position: absolute;
+    left: 25%;
+}
+#arrow1{
+    position: absolute;
+    left: 0;
+    top:650px;
+    
+}
+#items1{
+   position: relative; 
+}
+#icon{
+    right: 10px;
+    position: absolute;
+    bottom: 30px;
+    color: gray;
+}
+p{
+    color: gray;
+}
+#name{
+color: blue;
+}
+#name:hover{
+    text-decoration: underline;
+}
+#reply{
+    color: gray;
+}
+#seen{
+    font-weight: 700;
+}
+img{
+    width: 60px;
+    height: 60px;
+    /* border-radius: 50%; */
+    margin: 1px 20px 50px 1px;
+}
+.car{
+    padding: 20px;
+    border: 1px solid#e2e8f0;
+    background-color: #fff;
+    display: flex;
+    border-radius: 5px;
+}
+#img1{
+    width: 50px;
+}
+
+/* pop up */
+
+.nav {
+height: 40px;
+background-color: blue;
+color:white;
+font-weight: 500px;
+padding: 5px;
+}
+  
+.button{
+position: absolute;
+    display: flex;
+    bottom: 5px;
+    right: 5px;
+}
+ .contains{
+display: none;
+position: absolute;
+top: 50px;
+left:300px;
+width: 50%;
+height: 100%;
+z-index: 10;
+} 
+.container{
+    position: relative;
+}
+#bt{
+    background: #e0dede;
+    margin: 5px;
+}
+#bt1{
+    background: blue;
+    margin: 5px;
+    width: 100px;
+    color: #e2e8f0;
+}
+
+#over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+     display: none; 
+}
+.overlay{
+    display: block !important;
+    }
+.fluid{
+    display: block !important;
+    position: absolute;
+    top: 50px;
+    left:300px;
+    width: 50%;
+    height: 100%;
+    z-index: 10;
+
+}
+
